@@ -1,7 +1,7 @@
 MODEL:
-  OUTPUT_PATH: "/home/apie/projects/ml_hw/hw2/weights/model.pth"
+  OUTPUT_PATH: "/home/ykwei/Documents/ml-hw2/weights/model.pth"
   LR: 0.001
-  EPOCH: 5
+  EPOCH: 2
 
 DATA:
   PIXEL_MEAN: [0.485, 0.456, 0.406]
@@ -13,8 +13,8 @@ DATA:
   NUM_WORKERS: 4
 
 PATH:
-  TRAIN_SET: "/home/apie/projects/ml_hw/hw2/Cat_Dog_data/train"
-  TEST_SET: "/home/apie/projects/ml_hw/hw2/Cat_Dog_data/test"
+  TRAIN_SET: "/home/ykwei/Downloads/C1-P1_Train Dev_fixed/train"
+  TEST_SET: "/home/ykwei/Downloads/C1-P1_Train Dev_fixed/test"
 
 DEVICE:
   GPU: 1
