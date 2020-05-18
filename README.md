@@ -6,6 +6,10 @@ It's for cat&dog classification.
 
 You can modify some pieces of code on your demand.
 
+## Data split to use ImageLoader
+
+add new python program to split mango images into A,B,C dir by label.csv
+
 ## Data Preparation
 
 Download Data From: [Link](https://www.kaggle.com/pocahontas1010/dogs-vs-cats-for-pytorch/download)
